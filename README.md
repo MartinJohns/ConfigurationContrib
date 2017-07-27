@@ -46,3 +46,15 @@ var config = configurationBuilder.Build();
 // Retrieve the options
 var options = section.ImmutableBind<ComplexOptions>(config.GetSection("Section"));
 ```
+
+## Microsoft.Extensions.Configuration.Yaml
+
+Related to the `Microsoft.Extensions.Configuration.Json` project this project provides a way to load configurations from YAML files.
+
+Example:
+
+```csharp
+var configurationBuilder = new ConfigurationBuilder()
+    .AddYamlFile("myOptions.yml");
+var config = configurationBuilder.Build();
+```

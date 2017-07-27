@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26720.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.Configuration.ImmutableBinder", "src\Microsoft.Extensions.Configuration.ImmutableBinder\Microsoft.Extensions.Configuration.ImmutableBinder.csproj", "{AB0EEEEC-84F5-4C1D-A54C-1FE11E0B14EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Configuration.ImmutableBinder", "src\Microsoft.Extensions.Configuration.ImmutableBinder\Microsoft.Extensions.Configuration.ImmutableBinder.csproj", "{AB0EEEEC-84F5-4C1D-A54C-1FE11E0B14EA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC606723-753B-4D20-B237-92EBE95B07A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{42D31455-0FE2-4DD4-9B8A-072A72C8D995}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.Configuration.ImmutableBinder.Test", "test\Microsoft.Extensions.Configuration.ImmutableBinder.Test\Microsoft.Extensions.Configuration.ImmutableBinder.Test.csproj", "{15FE88F8-981A-4F54-9E0E-209753F725E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Configuration.ImmutableBinder.Test", "test\Microsoft.Extensions.Configuration.ImmutableBinder.Test\Microsoft.Extensions.Configuration.ImmutableBinder.Test.csproj", "{15FE88F8-981A-4F54-9E0E-209753F725E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.Configuration.Yaml", "src\Microsoft.Extensions.Configuration.Yaml\Microsoft.Extensions.Configuration.Yaml.csproj", "{1ECF3360-3E22-4AFF-8730-6825C3C46E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.Configuration.Yaml.Test", "test\Microsoft.Extensions.Configuration.Yaml.Test\Microsoft.Extensions.Configuration.Yaml.Test.csproj", "{82D288A7-FF9C-4DC9-B5A0-A7A88814A828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,14 @@ Global
 		{15FE88F8-981A-4F54-9E0E-209753F725E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15FE88F8-981A-4F54-9E0E-209753F725E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15FE88F8-981A-4F54-9E0E-209753F725E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ECF3360-3E22-4AFF-8730-6825C3C46E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECF3360-3E22-4AFF-8730-6825C3C46E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECF3360-3E22-4AFF-8730-6825C3C46E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECF3360-3E22-4AFF-8730-6825C3C46E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D288A7-FF9C-4DC9-B5A0-A7A88814A828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D288A7-FF9C-4DC9-B5A0-A7A88814A828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D288A7-FF9C-4DC9-B5A0-A7A88814A828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D288A7-FF9C-4DC9-B5A0-A7A88814A828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AB0EEEEC-84F5-4C1D-A54C-1FE11E0B14EA} = {FC606723-753B-4D20-B237-92EBE95B07A5}
 		{15FE88F8-981A-4F54-9E0E-209753F725E3} = {42D31455-0FE2-4DD4-9B8A-072A72C8D995}
+		{1ECF3360-3E22-4AFF-8730-6825C3C46E0D} = {FC606723-753B-4D20-B237-92EBE95B07A5}
+		{82D288A7-FF9C-4DC9-B5A0-A7A88814A828} = {42D31455-0FE2-4DD4-9B8A-072A72C8D995}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C716D2B1-81C5-4612-9ADA-5BA86A1AFF3F}
