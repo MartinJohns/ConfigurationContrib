@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26720.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.Configuration.ImmutableBinder", "src\Microsoft.Extensions.Configuration.ImmutableBinder\Microsoft.Extensions.Configuration.ImmutableBinder.csproj", "{AB0EEEEC-84F5-4C1D-A54C-1FE11E0B14EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC606723-753B-4D20-B237-92EBE95B07A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{42D31455-0FE2-4DD4-9B8A-072A72C8D995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.Configuration.ImmutableBinder.Test", "test\Microsoft.Extensions.Configuration.ImmutableBinder.Test\Microsoft.Extensions.Configuration.ImmutableBinder.Test.csproj", "{15FE88F8-981A-4F54-9E0E-209753F725E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB0EEEEC-84F5-4C1D-A54C-1FE11E0B14EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0EEEEC-84F5-4C1D-A54C-1FE11E0B14EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0EEEEC-84F5-4C1D-A54C-1FE11E0B14EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0EEEEC-84F5-4C1D-A54C-1FE11E0B14EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FE88F8-981A-4F54-9E0E-209753F725E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FE88F8-981A-4F54-9E0E-209753F725E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FE88F8-981A-4F54-9E0E-209753F725E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FE88F8-981A-4F54-9E0E-209753F725E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB0EEEEC-84F5-4C1D-A54C-1FE11E0B14EA} = {FC606723-753B-4D20-B237-92EBE95B07A5}
+		{15FE88F8-981A-4F54-9E0E-209753F725E3} = {42D31455-0FE2-4DD4-9B8A-072A72C8D995}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C716D2B1-81C5-4612-9ADA-5BA86A1AFF3F}
+	EndGlobalSection
+EndGlobal
